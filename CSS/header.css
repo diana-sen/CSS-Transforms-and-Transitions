@@ -12,14 +12,13 @@ header{
     display: flex;
     align-items: center;
     justify-content:center;
+    position: relative;
 }
 
 .header-menu {
     width: 100%;
     display:flex; 
     padding-left: 10%;
- /*  gap: 165px;
-    left: 20%;*/
 }
 
 .header-menu a {
@@ -63,12 +62,14 @@ header{
     align-items: end;
 }
 
-a:link { text-decoration: none; }
+a:link { 
+    text-decoration: none; 
+}
+
 a:hover { 
     text-decoration:underline;
     text-underline-offset: 6px;
 }
-
 
 .nav-list li {
     flex-grow: 1;
