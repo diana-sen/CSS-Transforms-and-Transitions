@@ -1,0 +1,76 @@
+.container-header-section{
+    width: 100%;
+    height: 822px; 
+    background: url("../assets/Desktop_Backgrounds_1920x1200_6.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.header-menu {
+    width: 100%;
+    display:flex; 
+    padding-left: 10%;
+ /*  gap: 165px;
+    left: 20%;*/
+}
+
+.header-menu a {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title-project {
+    width: 20%;
+/*    align-self: flex-start; */
+ 
+}
+
+.title-project a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.menu {
+    height: 22px; 
+    width: 50%;
+    padding-left: 5%;
+    }
+    
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+
+    align-items: end;
+}
+
+a:link { text-decoration: none; }
+a:hover { 
+    text-decoration:underline;
+    text-underline-offset: 6px;
+}
+
+
+.nav-list li {
+    flex-grow: 1;
+    flex-shrink: 1;
+}

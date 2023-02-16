@@ -7,6 +7,7 @@
     <title>Your First HTML Markup</title>
     <link rel="stylesheet" href='CSS/normalize.css'>
     <link rel="stylesheet" href='CSS/desktop.css'>
+    <link rel="stylesheet" href='CSS/header.css'>
     <link rel="stylesheet" href='CSS/heroStyles.css'>
     <link rel="stylesheet" href='CSS/mainStyles.css'>
     <link rel="stylesheet" href='CSS/learn-moreStyles.css'>
@@ -14,28 +15,36 @@
 </head>
 </head>
 <body>
-   <!-- 
-    <header>
-        <a href="#">Project</a>
-        <nav>
-            <ul>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Stories</a></li>
-                <li><a href="#">Contact</a></li>  
-            </ul> 
-        </nav>
-        
-    </header>
-    -->
-    <section class="hero">
-        <div class="hero_block">
-            <img class="logo1" src="assets\Logo.svg"/>
-            <h1>Your Headline<br>Here</h1>
-            <h2>Lorem ipsum dolor sit amet, consectetur<br>adispiscing elit sed do eiusmod.</h2>
-        </div>
-        
-    </section>
+    <div class="container-header-section">
+        <header>
+            <div class="header-menu">
+                <div class="title-project">
+                    <a href="#">Project</a>
+                </div>
+                
+                <nav class="menu">
+                    <ul class="nav-list">
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Contact</a></li>  
+                    </ul> 
+                </nav>
+            </div>
+        </header>
+       
+        <section class="hero">
+            <div class="hero_block">
+                <img class="logo1" src="assets\Logo.svg"/>
+                <h1>Your Headline<br>Here</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur<br>adispiscing elit sed do eiusmod.</h2>
+            </div>
+            
+        </section>
+
+    </div>
+    
+
     <main class="main">
         <div class="main-block">
             <h2>This is the Section Headline,<br>Continues to Two Lines
@@ -44,18 +53,16 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis.</p>
             <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   
             <button class="btn-read" type="button">Read more</button>
-        </div>
-        
+        </div>    
     </main>
+
     <article class="learn-more">
         <div class="learn-more-block">
             <h2>Learn more<br>about our culture...</h2>
             <button class="btn-play" type="button"><span class="play-icon">&#9654</span></button>
             <h3>Duis aute irure dolor in reprehenderit<br>in voluptate velit esse cillum dolore eu<br>fugiat nulla pariatur.</h3>
         </div>
-        
     </article>
-    
    
     <footer class="footer">
         <div class="footer-info">
