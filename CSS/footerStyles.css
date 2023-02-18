@@ -25,6 +25,7 @@ footer{
 
 .grid-item-1{
     grid-column: 1/2;
+  
 }
 .footer-logo{
     display: flex;
@@ -36,6 +37,7 @@ footer{
 
 .grid-item-2{
     grid-column: 3/4;
+   
 }
 
 .address {
@@ -45,7 +47,6 @@ footer{
 .grid-item-3 {
     grid-row: 2/3;
     grid-column: 3/4;
-
 }
 .email a {
     text-decoration: none;
@@ -55,4 +56,45 @@ footer{
 .grid-item-4 {
     grid-row: 2/3;
     grid-column: 6/8;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    footer{
+        height: 292px;
+    }
+
+    .footer-info-grid-container {
+        padding: 56px 0px 75px 0px;
+        display: grid;
+        grid-template-rows: repeat(4,40px);
+        grid-template-columns: 1fr;  
+    }
+
+    .grid-item-1, .grid-item-2, .grid-item-3, .grid-item-4{
+        grid-column: 1/2;
+        display: flex;
+        justify-content: center;
+    }
+
+    .small-logo{
+        margin-left: 0px;
+    }
+    .grid-item-2{
+       text-align: center;
+    }
+    .grid-item-3 {
+        grid-row: 3/4;
+        align-items: center;
+    }
+    
+    .grid-item-4 {
+        grid-row: 4/5;
+        
+    }
+
+
+  
+
 }
