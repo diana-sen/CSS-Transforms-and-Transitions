@@ -22,17 +22,17 @@
 
 .hero_block h1 {
     text-align: center;
-    font-family: 'Oswald';
+    font-family: var(--oswald-font);
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
     /* or 133% */
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .hero_block h2 {
-    font-family: 'Source Sans Pro';
+    font-family: var(--main-font-fam);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;

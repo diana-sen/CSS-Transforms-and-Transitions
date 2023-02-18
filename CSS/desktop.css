@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap');
-  body {  
+  
+:root {
+  --gray-color: #666;
+  --white-color: #FFF;
+  --main-font-fam: 'Source Sans Pro';
+  --oswald-font: 'Oswald';
+
+}
+
+body {  
     margin: 0px;
     padding: 0px;
     background: #EEE;

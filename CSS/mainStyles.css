@@ -15,7 +15,7 @@
 .main-title h2 {
     display: inline;
     text-align: center;
-    font-family: 'Oswald';
+    font-family: var(--oswald-font);
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -30,13 +30,13 @@
 
 
 .main-block h3 {
-    font-family: 'Source Sans Pro';
+    font-family: var(--main-font-fam);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    color: #666666;
+    color: var(--gray-color);
 }
 
 .grid-container {
@@ -46,13 +46,13 @@
 }
 
 .main-block p {
-    font-family: 'Source Sans Pro';
+    font-family: var(--main-font-fam);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     text-align: left;
-    color: #666;
+    color: var(--gray-color);
 }
 
 .p1 {
@@ -69,12 +69,12 @@
     padding: 5px 17px;
     background: #55C2D8;
     border: none;
-    font-family: 'Oswald';
+    font-family: var(--oswald-font);
     font-size: 14px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-transform: uppercase;
 }
 
@@ -116,13 +116,13 @@
     }
 
     .main-block p {
-        font-family: 'Source Sans Pro';
+        font-family: var(--main-font-fam);
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
         text-align: left;
-        color: #666;  
+        color: var(--gray-color);  
     }
 
     .p1 {
@@ -145,17 +145,8 @@
     }
 
     .btn-read {
-        border-radius: 18px;
         padding: 5px 17px;
-        background: #55C2D8;
         border: none;
-        font-family: 'Oswald';
-        font-size: 14px;
-        line-height: 26px;
-        text-align: center;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
         margin: unset;
     }
 

@@ -34,20 +34,20 @@
 
 .learn-more-block h2 {
     text-align: center;
-    font-family: 'Oswald';
+    font-family: var(--oswald-font);
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .learn-more-block h3 {
-    font-family: 'Source Sans Pro';
+    font-family: var(--main-font-fam);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    color: #FFF;
+    color: var(--white-color);
 }
