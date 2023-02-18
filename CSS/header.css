@@ -79,34 +79,31 @@ a:hover {
 
 
 @media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    /* Optional task */
+    header {
+        height: 13%;
+    }
 
-/* Hamburger menu */
- .nav-toggle-label span,
- .nav-toggle-label span::before,
- .nav-toggle-label span::after {
-    display: block;
-    background: white;
-    height: 3px;
-    width: 2em;
-    position:relative;         
- }
+    .header-menu{
+        padding-left: 8%;
+        padding-right: 8%;
+        justify-content: space-between;
+    }
 
- .nav-toggle-label span::before,
- .nav-toggle-label span::after {
-    content:'';
-    position:absolute;
- }
-
- .nav-toggle-label span::before{
-    bottom: 7px;
- }
- .nav-toggle-label span::after{
-    top: 7px;
- }
-
- .nav-list {
-    display: none;
- }
+    .app-header__nav-menu-button {
+        margin-right: -15px;
+    }
+    .app-header__nav-menu-button .app-header__nav-menu-button-icon span:nth-child(n) {
+        display: block;
+        background: white;
+        height: 3px;
+        width: 1.7em;
+        position:relative;
+        margin-bottom: 6px;
+    }
 
 }
 
