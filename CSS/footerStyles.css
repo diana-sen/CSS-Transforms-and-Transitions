@@ -10,10 +10,10 @@ footer{
     background-color: #464547;
     font-family: var(--main-font-fam);
     font-style: normal;
-    font-weight: 400;
+    font-weight: var(--regular-font-weight);
     font-size: 16px;
     line-height: 19px;
-    color: rgba(255, 255, 255, 0.4);
+    color: var(--light-gray-font-color);
 }
 
 .footer-info-grid-container {
@@ -50,7 +50,7 @@ footer{
 }
 .email a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.4);
+    color: var(--light-gray-font-color);
 }
 
 .grid-item-4 {

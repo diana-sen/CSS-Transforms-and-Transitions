@@ -20,7 +20,7 @@
     width: 150px;
     border: none;
     border-radius: 50%;
-    background-color: #39C2D7;
+    background-color: var(--blue-button-color);
 }
 
 .play-icon{
@@ -36,7 +36,7 @@
     text-align: center;
     font-family: var(--oswald-font);
     font-style: normal;
-    font-weight: 700;
+    font-weight: var(--bolder-font-weight);
     font-size: 48px;
     line-height: 64px;
     color: var(--white-color);
@@ -45,7 +45,7 @@
 .learn-more-block h3 {
     font-family: var(--main-font-fam);
     font-style: normal;
-    font-weight: 400;
+    font-weight: var(--regular-font-weight);
     font-size: 24px;
     line-height: 32px;
     text-align: center;

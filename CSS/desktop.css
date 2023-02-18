@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap');
   
 :root {
-  --gray-color: #666;
-  --white-color: #FFF;
   --main-font-fam: 'Source Sans Pro';
   --oswald-font: 'Oswald';
-
+  --white-color: #FFF;
+  --gray-color: #666;
+  --light-gray-font-color: rgba(255, 255, 255, 0.4);
+  --regular-font-weight: 400;
+  --bolder-font-weight: 700;
+  --blue-button-color: #39C2D7;
 }
 
 body {  
