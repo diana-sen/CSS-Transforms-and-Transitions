@@ -21,12 +21,21 @@
     border: none;
     border-radius: 50%;
     background-color: var(--blue-button-color);
+    color: white;    
+    transition: background-color .8s ease-out,
+                color .4s,
+                transform .8s;
+}
+
+.btn-play:hover {    
+    background-color: white;    
+    color: var(--blue-button-color);
+    transform: scale(0.95);
 }
 
 .play-icon{
     position: relative;
     font-size: 70px;
-    color: white;
     width: 55px;
     height: 70px;
     left: 7px;
