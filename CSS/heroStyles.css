@@ -18,6 +18,11 @@
 .logo1 {
     width: 63px;
     height: 63px;
+    transition: 0.5s cubic-bezier(0.9,-0.03, 0.03, 1.15);
+}
+
+.logo1:hover {    
+    transform: scale(1.5) rotateY(180deg);
 }
 
 .hero_block h1 {
