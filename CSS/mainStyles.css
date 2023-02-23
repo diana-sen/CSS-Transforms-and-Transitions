@@ -66,6 +66,12 @@
     letter-spacing: 0.1em;
     color: var(--white-color);
     text-transform: uppercase;
+    transition: .3s ease-in;    
+    transform-origin: center left;
+}
+
+.btn-read:hover {    
+    transform: rotate(13deg);
 }
 
 @media only screen and (max-width: 768px) {
